@@ -4,7 +4,7 @@
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "My First Xamarin App";
         }
     }
 }

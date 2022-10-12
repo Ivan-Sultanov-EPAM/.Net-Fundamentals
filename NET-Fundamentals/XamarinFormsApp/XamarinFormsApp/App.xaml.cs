@@ -1,8 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-using XamarinFormsApp.Services;
-using XamarinFormsApp.Views;
+﻿using Xamarin.Forms;
 
 namespace XamarinFormsApp
 {
@@ -13,7 +9,6 @@ namespace XamarinFormsApp
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 
