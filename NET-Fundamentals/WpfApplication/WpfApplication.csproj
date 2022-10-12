@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryConcat\ClassLibraryConcat.csproj">
+      <Project>{12e562cf-294a-426f-b157-e91a32df08e2}</Project>
+      <Name>ClassLibraryConcat</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

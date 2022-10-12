@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using ClassLibraryConcat;
+using System.Windows;
 
 namespace WpfApplication
 {
@@ -18,7 +19,7 @@ namespace WpfApplication
             var button = MessageBoxButton.OK;
             var icon = MessageBoxImage.None;
 
-            MessageBox.Show($"Hello, {NameTextBox.Text}", caption, button, icon, MessageBoxResult.Yes);
+            MessageBox.Show(NameTextBox.Text.ToGreeting(), caption, button, icon, MessageBoxResult.Yes);
         }
     }
 }
